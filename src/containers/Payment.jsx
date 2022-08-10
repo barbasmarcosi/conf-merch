@@ -1,6 +1,16 @@
 import React from 'react';
 import '../styles/components/Payment.css';
 
-const Payment = () => <h1 className="Payment">Payment</h1>;
+const Payment = () => (
+  <div className="Payment">
+    <div className="Payment-content">
+        <h3>Order resume:</h3>
+        <div className="Payment-button">
+            Paypal pay button
+        </div>
+    </div>
+    <div className="Payment-sidebar"></div>
+  </div>
+);
 
 export default Payment;
