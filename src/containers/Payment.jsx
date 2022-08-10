@@ -9,7 +9,7 @@ const Payment = () => (
             Paypal pay button
         </div>
     </div>
-    <div className="Payment-sidebar"></div>
+    <div className="Payment-sidebar">Sidebar</div>
   </div>
 );
 
